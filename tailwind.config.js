@@ -8,9 +8,6 @@ module.exports = {
           700: "#ff0000",
         },
       },
-      borderRadius: {
-        "28px": "28px",
-      },
       width: {
         "730px": "730px",
       },

@@ -25,11 +25,12 @@ export default function Textarea({ span, color, label }) {
       </span>
       <textarea
         className={`resize-none p-3 rounded-md w-full ${color}`}
-        value={value}
         onChange={(e) => setValue(e.target.value)}
         onFocus={focusHandler}
         onBlur={focusHandler}
-      ></textarea>
+      >
+        {value}
+      </textarea>
     </div>
   );
 }
